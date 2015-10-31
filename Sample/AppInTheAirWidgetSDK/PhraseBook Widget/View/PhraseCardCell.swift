@@ -6,7 +6,9 @@
 import Foundation
 import UIKit
 
-
+protocol PhraseCellDelegate {
+    func longPressToPlay(cell: PhraseCardCell)
+}
 
 class PhraseCardCell: UICollectionViewCell {
 
@@ -15,18 +17,21 @@ class PhraseCardCell: UICollectionViewCell {
     @IBOutlet weak var script: UILabel!
     @IBOutlet weak var engTranslation: UILabel!
 
-    @IBAction func playCard(sender: AnyObject) {
-    }
+    var indexPath: NSIndexPath?
+    var delegate:PhraseCellDelegate?
 
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        let pressToPlay = UILongPressGestureRecognizer(target: self, action:Selector("playCard"))
+        let pressToPlay = UITapGestureRecognizer(target: self, action:Selector("playCard"))
         self.contentView.addGestureRecognizer(pressToPlay)
         self.contentView.userInteractionEnabled = true
     }
 
     func playCard() {
+       if let delegate = self.delegate {
+           delegate.longPressToPlay(self)
+       }
     }
 
 }

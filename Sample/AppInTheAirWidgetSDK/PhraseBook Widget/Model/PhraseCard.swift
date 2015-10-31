@@ -12,6 +12,8 @@ class PhraseCard {
     var native:String = ""
     var cardDescription:String = ""
     var soundFilename:String = ""
+
+
     
     class func loadCardsForCountry(countryCode: String) -> [PhraseCard]? {
         var cardModels = [PhraseCard]()
@@ -36,12 +38,14 @@ class PhraseCard {
         return cardModels
     }
 
+    var audioPlayer : AVAudioPlayer! = nil
     func playSound() {
         let soundURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(self.soundFilename, ofType: "mp3")!)
         do {
-            let audioPlayer = try AVAudioPlayer(contentsOfURL:soundURL)
+            audioPlayer = try AVAudioPlayer(contentsOfURL:soundURL)
             audioPlayer.prepareToPlay()
             audioPlayer.play()
+            print("Played")
         } catch {
             print("Error getting the audio file")
         }

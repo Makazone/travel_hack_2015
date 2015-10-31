@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>sound</key>
-			<string>fr_greeting_morning.mp3</string>
+			<string>fr_greeting_morning</string>
 			<key>script</key>
 			<string>bohn-ZHOOR</string>
 			<key>eng</key>
@@ -18,7 +18,7 @@
 		</dict>
 		<dict>
 			<key>sound</key>
-			<string>fr_greeting_noon.mp3</string>
+			<string>fr_greeting_noon</string>
 			<key>script</key>
 			<string>bohn-ZHOOR</string>
 			<key>eng</key>
@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>sound</key>
-			<string>fr_greeting_evening.mp3</string>
+			<string>fr_greeting_evening</string>
 			<key>script</key>
 			<string>bong-SWAHR</string>
 			<key>eng</key>

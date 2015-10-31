@@ -46,6 +46,9 @@ extension ChecklistWidgetCell: UICollectionViewDataSource {
         cell.cardDescription.text = card.cardDescription
         cell.nativeWord.text      = card.native
         cell.script.text          = card.script
+
+        cell.indexPath = indexPath
+        cell.delegate = self
         
         return cell
     }
@@ -70,6 +73,14 @@ extension ChecklistWidgetCell : UICollectionViewDelegateFlowLayout {
     }
 }
 
+extension ChecklistWidgetCell: PhraseCellDelegate {
+    func longPressToPlay(cell: PhraseCardCell) {
+        if let path = cell.indexPath {
+            let card = self.cards[path.row]
+            card.playSound()
+        }
+    }
+}
 
 
 
