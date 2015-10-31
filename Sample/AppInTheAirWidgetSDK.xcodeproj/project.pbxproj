@@ -20,7 +20,7 @@
 		D50BDA4E1BE3DC6D0061A151 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */; };
 		D50BDA4F1BE3DC6D0061A151 /* ChecklistWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA431BE3DC6D0061A151 /* ChecklistWidget.swift */; };
 		D50BDA501BE3DC6D0061A151 /* ChecklistWidgetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA441BE3DC6D0061A151 /* ChecklistWidgetCell.swift */; };
-		D50BDA511BE3DC6D0061A151 /* ChecklistWidgetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA451BE3DC6D0061A151 /* ChecklistWidgetCell.xib */; };
+		D50BDA511BE3DC6D0061A151 /* PhraseBookWidgetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA451BE3DC6D0061A151 /* PhraseBookWidgetCell.xib */; };
 		D50BDA521BE3DC6D0061A151 /* feed_widget_checklist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA461BE3DC6D0061A151 /* feed_widget_checklist@2x.png */; };
 		D50BDA531BE3DC6D0061A151 /* feed_widget_checklist@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA471BE3DC6D0061A151 /* feed_widget_checklist@3x.png */; };
 		D50BDA541BE3DC6D0061A151 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA481BE3DC6D0061A151 /* Model.xcdatamodeld */; };
@@ -69,7 +69,7 @@
 		D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		D50BDA431BE3DC6D0061A151 /* ChecklistWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistWidget.swift; sourceTree = "<group>"; };
 		D50BDA441BE3DC6D0061A151 /* ChecklistWidgetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistWidgetCell.swift; sourceTree = "<group>"; };
-		D50BDA451BE3DC6D0061A151 /* ChecklistWidgetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChecklistWidgetCell.xib; sourceTree = "<group>"; };
+		D50BDA451BE3DC6D0061A151 /* PhraseBookWidgetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhraseBookWidgetCell.xib; sourceTree = "<group>"; };
 		D50BDA461BE3DC6D0061A151 /* feed_widget_checklist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_widget_checklist@2x.png"; sourceTree = "<group>"; };
 		D50BDA471BE3DC6D0061A151 /* feed_widget_checklist@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_widget_checklist@3x.png"; sourceTree = "<group>"; };
 		D50BDA491BE3DC6D0061A151 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 				D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */,
 				D50BDA431BE3DC6D0061A151 /* ChecklistWidget.swift */,
 				D50BDA441BE3DC6D0061A151 /* ChecklistWidgetCell.swift */,
-				D50BDA451BE3DC6D0061A151 /* ChecklistWidgetCell.xib */,
+				D50BDA451BE3DC6D0061A151 /* PhraseBookWidgetCell.xib */,
 				D50BDA461BE3DC6D0061A151 /* feed_widget_checklist@2x.png */,
 				D50BDA471BE3DC6D0061A151 /* feed_widget_checklist@3x.png */,
 				D50BDA481BE3DC6D0061A151 /* Model.xcdatamodeld */,
@@ -303,7 +303,7 @@
 			files = (
 				CA9650281BE4EE3600850C0C /* PhraseBookItemCell.xib in Resources */,
 				D50BDA521BE3DC6D0061A151 /* feed_widget_checklist@2x.png in Resources */,
-				D50BDA511BE3DC6D0061A151 /* ChecklistWidgetCell.xib in Resources */,
+				D50BDA511BE3DC6D0061A151 /* PhraseBookWidgetCell.xib in Resources */,
 				D50BDA531BE3DC6D0061A151 /* feed_widget_checklist@3x.png in Resources */,
 				CA9650261BE4E77C00850C0C /* fr_greeting_noon.mp3 in Resources */,
 				D5193B121BD3F4D4006D69F6 /* LaunchScreen.storyboard in Resources */,

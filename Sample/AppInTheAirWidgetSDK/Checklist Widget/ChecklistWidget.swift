@@ -35,19 +35,19 @@ class ChecklistWidget: NSObject, TripWidget {
     }
     
     var cellIdentifier: String {
-        return "ChecklistWidgetCell"
+        return "PhraseBookWidgetCell"
     }
     
     var cellHeight: CGFloat {
-        return 250
+        return 200
     }
     
     var name: String {
-        return "Checklist"
+        return "PhraseBook"
     }
     
     static var widgetType: String {
-        return "checklist"
+        return "phrasebook"
     }
     
     func configureCell(reusableCell: UICollectionViewCell) {

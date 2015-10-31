@@ -6,6 +6,8 @@
 import Foundation
 import UIKit
 
+
+
 class PhraseCardCell: UICollectionViewCell {
 
     @IBOutlet weak var cardDescription: UILabel!
@@ -18,5 +20,13 @@ class PhraseCardCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+
+        let pressToPlay = UILongPressGestureRecognizer(target: self, action:Selector("playCard"))
+        self.contentView.addGestureRecognizer(pressToPlay)
+        self.contentView.userInteractionEnabled = true
     }
+
+    func playCard() {
+    }
+
 }
