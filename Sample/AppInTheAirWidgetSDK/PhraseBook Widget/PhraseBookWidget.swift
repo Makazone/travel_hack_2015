@@ -1,5 +1,5 @@
 //
-//  ChecklistWidget.swift
+//  PhraseBookWidget.swift
 //  AppInTheAirWidgetSDK
 //
 //  Created by Sergey Pronin on 10/23/15.

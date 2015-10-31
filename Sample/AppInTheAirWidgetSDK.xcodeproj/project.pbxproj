@@ -18,8 +18,8 @@
 		D50BDA4C1BE3DC6D0061A151 /* ChecklistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA401BE3DC6D0061A151 /* ChecklistCell.swift */; };
 		D50BDA4D1BE3DC6D0061A151 /* ChecklistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA411BE3DC6D0061A151 /* ChecklistCell.xib */; };
 		D50BDA4E1BE3DC6D0061A151 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */; };
-		D50BDA4F1BE3DC6D0061A151 /* ChecklistWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA431BE3DC6D0061A151 /* ChecklistWidget.swift */; };
-		D50BDA501BE3DC6D0061A151 /* ChecklistWidgetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA441BE3DC6D0061A151 /* ChecklistWidgetCell.swift */; };
+		D50BDA4F1BE3DC6D0061A151 /* PhraseBookWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA431BE3DC6D0061A151 /* PhraseBookWidget.swift */; };
+		D50BDA501BE3DC6D0061A151 /* PhraseBookWidgetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA441BE3DC6D0061A151 /* PhraseBookWidgetCell.swift */; };
 		D50BDA511BE3DC6D0061A151 /* PhraseBookWidgetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA451BE3DC6D0061A151 /* PhraseBookWidgetCell.xib */; };
 		D50BDA521BE3DC6D0061A151 /* feed_widget_checklist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA461BE3DC6D0061A151 /* feed_widget_checklist@2x.png */; };
 		D50BDA531BE3DC6D0061A151 /* feed_widget_checklist@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA471BE3DC6D0061A151 /* feed_widget_checklist@3x.png */; };
@@ -67,8 +67,8 @@
 		D50BDA401BE3DC6D0061A151 /* ChecklistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistCell.swift; sourceTree = "<group>"; };
 		D50BDA411BE3DC6D0061A151 /* ChecklistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChecklistCell.xib; sourceTree = "<group>"; };
 		D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
-		D50BDA431BE3DC6D0061A151 /* ChecklistWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistWidget.swift; sourceTree = "<group>"; };
-		D50BDA441BE3DC6D0061A151 /* ChecklistWidgetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistWidgetCell.swift; sourceTree = "<group>"; };
+		D50BDA431BE3DC6D0061A151 /* PhraseBookWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseBookWidget.swift; sourceTree = "<group>"; };
+		D50BDA441BE3DC6D0061A151 /* PhraseBookWidgetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseBookWidgetCell.swift; sourceTree = "<group>"; };
 		D50BDA451BE3DC6D0061A151 /* PhraseBookWidgetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhraseBookWidgetCell.xib; sourceTree = "<group>"; };
 		D50BDA461BE3DC6D0061A151 /* feed_widget_checklist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_widget_checklist@2x.png"; sourceTree = "<group>"; };
 		D50BDA471BE3DC6D0061A151 /* feed_widget_checklist@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_widget_checklist@3x.png"; sourceTree = "<group>"; };
@@ -173,14 +173,14 @@
 			path = Greeting;
 			sourceTree = "<group>";
 		};
-		D50BDA3F1BE3DC6D0061A151 /* Checklist Widget */ = {
+		D50BDA3F1BE3DC6D0061A151 /* PhraseBook Widget */ = {
 			isa = PBXGroup;
 			children = (
 				D50BDA401BE3DC6D0061A151 /* ChecklistCell.swift */,
 				D50BDA411BE3DC6D0061A151 /* ChecklistCell.xib */,
 				D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */,
-				D50BDA431BE3DC6D0061A151 /* ChecklistWidget.swift */,
-				D50BDA441BE3DC6D0061A151 /* ChecklistWidgetCell.swift */,
+				D50BDA431BE3DC6D0061A151 /* PhraseBookWidget.swift */,
+				D50BDA441BE3DC6D0061A151 /* PhraseBookWidgetCell.swift */,
 				D50BDA451BE3DC6D0061A151 /* PhraseBookWidgetCell.xib */,
 				D50BDA461BE3DC6D0061A151 /* feed_widget_checklist@2x.png */,
 				D50BDA471BE3DC6D0061A151 /* feed_widget_checklist@3x.png */,
@@ -190,7 +190,7 @@
 				243248628DA338F2FB198705 /* View */,
 				2432454DCB24EA836C73F692 /* Model */,
 			);
-			path = "Checklist Widget";
+			path = "PhraseBook Widget";
 			sourceTree = "<group>";
 		};
 		D50BDA611BE3DD6A0061A151 /* WidgetSDK */ = {
@@ -232,7 +232,7 @@
 				D5193B101BD3F4D4006D69F6 /* LaunchScreen.storyboard */,
 				D5193B131BD3F4D4006D69F6 /* Info.plist */,
 				D5D5100C1BD9EC6D001B2A0E /* CoreDataHelper.swift */,
-				D50BDA3F1BE3DC6D0061A151 /* Checklist Widget */,
+				D50BDA3F1BE3DC6D0061A151 /* PhraseBook Widget */,
 				24324ED82F07886DA9B9F7D7 /* Data */,
 			);
 			path = AppInTheAirWidgetSDK;
@@ -376,9 +376,9 @@
 				D50BDA561BE3DC6D0061A151 /* TodoItem.swift in Sources */,
 				D50BDA4C1BE3DC6D0061A151 /* ChecklistCell.swift in Sources */,
 				D5D5100D1BD9EC6D001B2A0E /* CoreDataHelper.swift in Sources */,
-				D50BDA501BE3DC6D0061A151 /* ChecklistWidgetCell.swift in Sources */,
+				D50BDA501BE3DC6D0061A151 /* PhraseBookWidgetCell.swift in Sources */,
 				D50BDA541BE3DC6D0061A151 /* Model.xcdatamodeld in Sources */,
-				D50BDA4F1BE3DC6D0061A151 /* ChecklistWidget.swift in Sources */,
+				D50BDA4F1BE3DC6D0061A151 /* PhraseBookWidget.swift in Sources */,
 				D5193B081BD3F4D4006D69F6 /* AppDelegate.swift in Sources */,
 				D50BDA551BE3DC6D0061A151 /* TodoItem+CoreData.swift in Sources */,
 				D50BDA4E1BE3DC6D0061A151 /* ChecklistViewController.swift in Sources */,
