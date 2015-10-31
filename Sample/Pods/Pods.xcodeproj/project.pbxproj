@@ -7,117 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36A92FBE1086B77D1B3E0C9ADFCC091D /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0076CD02C132C4EDF79F792052A8C4C9 /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E18CB728684E7C6F3C49D386179C89D /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A1F32AACCD00391CAB6F9CD1CC9254 /* Pods-dummy.m */; };
-		7DE3AC14F998CA73F863D782D4A8D9BA /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 98191009DF38228BCA572112A39E552D /* UIView+FLKAutoLayoutDebug.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		813348F42C30E711282222547465E516 /* FLKAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE10F0C226E5151C783919AFBD173C08 /* FLKAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C4753A93905FB1E3737E597D5D1EA55 /* FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FAF48D1EEDDCE4C01403546F652547 /* FLKAutoLayout-dummy.m */; };
-		993BFB2FDA4AE4CAED7C86E81FD3EB1C /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = F44D1CC87F12D4EAAA91F7B9533A20FB /* FLKAutoLayoutPredicateList.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A8582E1AA330381D59A9723A8F19FE1E /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F168E5A9F846AB45D084E5E43EA0DF /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A95016C48DB5B24E6370C949F4F3A11C /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D864C4BEC81D9400D09886ED156BF67 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4AB32B8FD6695A32BC2BAD8C6947453 /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B5A777147655EFD5B52390EF4D5B52 /* UIView+FLKAutoLayoutPredicate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B70CF349B227AC500152A36CF3116C76 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC7B14C19D26F84BB17E2F8B6FD4820 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BFDB9A056C3C48296098919779873BE0 /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = 10764CB0D2CF285BFD1A57949D067C74 /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4A43F6CB0CF88D7D631557109002A29 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = F81D3BC81829938C96D6A18663F14957 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7EB1EBE74C9302D61D78A5E4D0A4ACB /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C1439E0120722C0849F9918C90816680 /* UIView+FLKAutoLayout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CB74CAFD1CD493CA1F7F05352E73E058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C343995F379F30BB37B9C9466232A845 /* Foundation.framework */; };
-		CDBA856A4EEA9B5B8563228ABDE54A28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C343995F379F30BB37B9C9466232A845 /* Foundation.framework */; };
-		FE7E63AB33177F0F1A5A6061989BC96E /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F3C8F2FF264F5DD4262289DD9FE83C /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0166415DFCFC00D3EF7E5CBB1DA5F20E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		0AAC2E5BA42566A52730DF1282D7F143 /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0359F330103A3B8CF04E15A705A2639A /* UIView+FLKAutoLayoutPredicate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1691AEF57368334C02E1DB99CC021459 /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1B61F55CC404B9577019E21B11CD17 /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C074BCE11CD75F778DE06C6D2F6A5D9 /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = D81A5E1CEBA868E1957A5DB9AB1D5DF6 /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FB46C1D1A01FE2B98931A96FB1C66DA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		4201A8718E7D8641F976997A6AC535BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		45D0162F18A39049201DDC1F2E3F84BF /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4801F98E0C4D879A1490E6C8B680F8F0 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C474B590A9889FAD7520EA9B6A547D /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0DCEB74E09BAB9097B0490EBBDB322 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AA4BC3C302D183905FE6A120C6E7D28 /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1071341EB57A9502033CF88D66126D6C /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA48B6A50284B512AC324A09E176318 /* FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E63A1F44280469082CE4D0E71EFF4E19 /* FLKAutoLayout-dummy.m */; };
+		9370343B151FDDE979AAF1385B876CC6 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC07B456DECE6D38474329A4809F5ED /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9F399E49374B0B7AD14D2D8A2E065790 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A94EF223E74CE947CD6A9069F7BD8230 /* FLKAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B93A12D72B5663D8D291CF624AD39CC /* FLKAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC1CDF6B71C2C95075E4A22D98C248E0 /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5941937C773562ACC18205DEDD98F2 /* UIView+FLKAutoLayout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6C70086B6FCF91EF9FDBA77C1DE4ED7 /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 3771A682DAC9675D8FCAE643BA923365 /* UIView+FLKAutoLayoutDebug.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F646EE5358AC9C6651A46E90FDC60A27 /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1A04D2C460A7B247B15183D2EFC653 /* FLKAutoLayoutPredicateList.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4C96FD3145114DE91CB7E767966310A5 /* PBXContainerItemProxy */ = {
+		9FCBD72A5CF40ED99C53DED1A70B5057 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C398F79A1D3510BDB57184BDA5C360E3;
+			remoteGlobalIDString = A34CA2CDCA33A9CF24A09EA980F8EDEE;
 			remoteInfo = FLKAutoLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0076CD02C132C4EDF79F792052A8C4C9 /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
-		10764CB0D2CF285BFD1A57949D067C74 /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
-		114B5BCCDA46BF19A714E5881A9AB5BB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		1ACDF1A98B0297BEEBF4A68F4F804056 /* FLKAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLKAutoLayout.modulemap; sourceTree = "<group>"; };
-		30A1F32AACCD00391CAB6F9CD1CC9254 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		4236FFBF8088F75B556DD63F6967DE5D /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54FC96246B792821F3205282A37D5F11 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D864C4BEC81D9400D09886ED156BF67 /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
-		701AD6291E5C049AF71DA0DC09150D15 /* FLKAutoLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FLKAutoLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		0359F330103A3B8CF04E15A705A2639A /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
+		044CD19B79EA89F1CF4F20391D8A8E45 /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1071341EB57A9502033CF88D66126D6C /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
+		13EC3FC8FD979A3487C975E6A1C32C21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240C98B5A529D0EDDC2BF1F46EB64279 /* FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		3771A682DAC9675D8FCAE643BA923365 /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		3BC07B456DECE6D38474329A4809F5ED /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F5941937C773562ACC18205DEDD98F2 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		4801F98E0C4D879A1490E6C8B680F8F0 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		609762B3195FD40C40333A07F8BB4265 /* FLKAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLKAutoLayout.xcconfig; sourceTree = "<group>"; };
+		6E1A04D2C460A7B247B15183D2EFC653 /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		81B5A777147655EFD5B52390EF4D5B52 /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		98191009DF38228BCA572112A39E552D /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
-		9A3B4FFDBAD67FF355FB36CC3E70107E /* FLKAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLKAutoLayout.xcconfig; sourceTree = "<group>"; };
-		AE10F0C226E5151C783919AFBD173C08 /* FLKAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-umbrella.h"; sourceTree = "<group>"; };
-		B37491E01CB71DF46298A64CE4495346 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B82DE8ABD074C688A980B9EDFA8B1310 /* FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9B93A12D72B5663D8D291CF624AD39CC /* FLKAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C1439E0120722C0849F9918C90816680 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
-		C1F3C8F2FF264F5DD4262289DD9FE83C /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
-		C343995F379F30BB37B9C9466232A845 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C3FAF48D1EEDDCE4C01403546F652547 /* FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		BDA339BE032DCC99A4B6B67ED11FA2C0 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD72CAD17F2A3BEFA6ABDB7AFF4B170F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		DEC7B14C19D26F84BB17E2F8B6FD4820 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
-		E7F168E5A9F846AB45D084E5E43EA0DF /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		D81A5E1CEBA868E1957A5DB9AB1D5DF6 /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DE0DCEB74E09BAB9097B0490EBBDB322 /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		E63A1F44280469082CE4D0E71EFF4E19 /* FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F44D1CC87F12D4EAAA91F7B9533A20FB /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
-		F81D3BC81829938C96D6A18663F14957 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		EC1B61F55CC404B9577019E21B11CD17 /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
+		ED69AF121E9CAAA50BE943979952EF16 /* FLKAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLKAutoLayout.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A88657BB81854E36A5DC4C8D0743132 /* Frameworks */ = {
+		4A4201AA79888F708625F32B1362BD5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDBA856A4EEA9B5B8563228ABDE54A28 /* Foundation.framework in Frameworks */,
+				0166415DFCFC00D3EF7E5CBB1DA5F20E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA839856DCAD403D051DA33BE319AD5D /* Frameworks */ = {
+		8486EEE88A73247089FDA4C74FECD2C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB74CAFD1CD493CA1F7F05352E73E058 /* Foundation.framework in Frameworks */,
+				4201A8718E7D8641F976997A6AC535BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07C6C4BC8F6D1102544BB621AAF1578A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1ACDF1A98B0297BEEBF4A68F4F804056 /* FLKAutoLayout.modulemap */,
-				9A3B4FFDBAD67FF355FB36CC3E70107E /* FLKAutoLayout.xcconfig */,
-				701AD6291E5C049AF71DA0DC09150D15 /* FLKAutoLayout-Private.xcconfig */,
-				C3FAF48D1EEDDCE4C01403546F652547 /* FLKAutoLayout-dummy.m */,
-				B82DE8ABD074C688A980B9EDFA8B1310 /* FLKAutoLayout-prefix.pch */,
-				AE10F0C226E5151C783919AFBD173C08 /* FLKAutoLayout-umbrella.h */,
-				54FC96246B792821F3205282A37D5F11 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FLKAutoLayout";
-			sourceTree = "<group>";
-		};
 		1380021655A335CC6444710D25AE9D0A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB90B2ED04C3A553D6757D703395074D /* FLKAutoLayout */,
+				400EBFAEC3A50EC456ED42CBB3C45955 /* FLKAutoLayout */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+		400EBFAEC3A50EC456ED42CBB3C45955 /* FLKAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				C343995F379F30BB37B9C9466232A845 /* Foundation.framework */,
+				EC1B61F55CC404B9577019E21B11CD17 /* FLKAutoLayoutPredicateList.h */,
+				6E1A04D2C460A7B247B15183D2EFC653 /* FLKAutoLayoutPredicateList.m */,
+				4801F98E0C4D879A1490E6C8B680F8F0 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
+				3BC07B456DECE6D38474329A4809F5ED /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
+				1071341EB57A9502033CF88D66126D6C /* UIView+FLKAutoLayout.h */,
+				3F5941937C773562ACC18205DEDD98F2 /* UIView+FLKAutoLayout.m */,
+				DE0DCEB74E09BAB9097B0490EBBDB322 /* UIView+FLKAutoLayoutDebug.h */,
+				3771A682DAC9675D8FCAE643BA923365 /* UIView+FLKAutoLayoutDebug.m */,
+				D81A5E1CEBA868E1957A5DB9AB1D5DF6 /* UIView+FLKAutoLayoutPredicate.h */,
+				0359F330103A3B8CF04E15A705A2639A /* UIView+FLKAutoLayoutPredicate.m */,
+				F6CB9D35EEB6F42C4A79E338C5DDFE3C /* Support Files */,
 			);
-			name = iOS;
+			path = FLKAutoLayout;
 			sourceTree = "<group>";
 		};
 		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
@@ -127,12 +121,12 @@
 				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
 				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
 				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
-				30A1F32AACCD00391CAB6F9CD1CC9254 /* Pods-dummy.m */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
 				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
 				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
-				E7F168E5A9F846AB45D084E5E43EA0DF /* Pods-umbrella.h */,
-				114B5BCCDA46BF19A714E5881A9AB5BB /* Pods.debug.xcconfig */,
-				DD72CAD17F2A3BEFA6ABDB7AFF4B170F /* Pods.release.xcconfig */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
@@ -144,7 +138,7 @@
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				1380021655A335CC6444710D25AE9D0A /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				BD7A59083C8AF348063A7F913749DF16 /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -160,90 +154,76 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CB90B2ED04C3A553D6757D703395074D /* FLKAutoLayout */ = {
+		BD7A59083C8AF348063A7F913749DF16 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10764CB0D2CF285BFD1A57949D067C74 /* FLKAutoLayoutPredicateList.h */,
-				F44D1CC87F12D4EAAA91F7B9533A20FB /* FLKAutoLayoutPredicateList.m */,
-				F81D3BC81829938C96D6A18663F14957 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
-				DEC7B14C19D26F84BB17E2F8B6FD4820 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
-				0076CD02C132C4EDF79F792052A8C4C9 /* UIView+FLKAutoLayout.h */,
-				C1439E0120722C0849F9918C90816680 /* UIView+FLKAutoLayout.m */,
-				6D864C4BEC81D9400D09886ED156BF67 /* UIView+FLKAutoLayoutDebug.h */,
-				98191009DF38228BCA572112A39E552D /* UIView+FLKAutoLayoutDebug.m */,
-				C1F3C8F2FF264F5DD4262289DD9FE83C /* UIView+FLKAutoLayoutPredicate.h */,
-				81B5A777147655EFD5B52390EF4D5B52 /* UIView+FLKAutoLayoutPredicate.m */,
-				07C6C4BC8F6D1102544BB621AAF1578A /* Support Files */,
-			);
-			path = FLKAutoLayout;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4236FFBF8088F75B556DD63F6967DE5D /* FLKAutoLayout.framework */,
-				B37491E01CB71DF46298A64CE4495346 /* Pods.framework */,
+				044CD19B79EA89F1CF4F20391D8A8E45 /* FLKAutoLayout.framework */,
+				BDA339BE032DCC99A4B6B67ED11FA2C0 /* Pods.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6CB9D35EEB6F42C4A79E338C5DDFE3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED69AF121E9CAAA50BE943979952EF16 /* FLKAutoLayout.modulemap */,
+				609762B3195FD40C40333A07F8BB4265 /* FLKAutoLayout.xcconfig */,
+				E63A1F44280469082CE4D0E71EFF4E19 /* FLKAutoLayout-dummy.m */,
+				240C98B5A529D0EDDC2BF1F46EB64279 /* FLKAutoLayout-prefix.pch */,
+				9B93A12D72B5663D8D291CF624AD39CC /* FLKAutoLayout-umbrella.h */,
+				13EC3FC8FD979A3487C975E6A1C32C21 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLKAutoLayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4BD94271ADAA8D54467A7FFF62AD96BD /* Headers */ = {
+		43157636B93F4DFCB02DBB07756F3298 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8582E1AA330381D59A9723A8F19FE1E /* Pods-umbrella.h in Headers */,
+				A94EF223E74CE947CD6A9069F7BD8230 /* FLKAutoLayout-umbrella.h in Headers */,
+				1691AEF57368334C02E1DB99CC021459 /* FLKAutoLayoutPredicateList.h in Headers */,
+				45D0162F18A39049201DDC1F2E3F84BF /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
+				5AA4BC3C302D183905FE6A120C6E7D28 /* UIView+FLKAutoLayout.h in Headers */,
+				50C474B590A9889FAD7520EA9B6A547D /* UIView+FLKAutoLayoutDebug.h in Headers */,
+				2C074BCE11CD75F778DE06C6D2F6A5D9 /* UIView+FLKAutoLayoutPredicate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A3B36B55F33EF2655CAB0EAE946F59E /* Headers */ = {
+		763E956EE21DBF56679D1D0367595ECF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813348F42C30E711282222547465E516 /* FLKAutoLayout-umbrella.h in Headers */,
-				BFDB9A056C3C48296098919779873BE0 /* FLKAutoLayoutPredicateList.h in Headers */,
-				C4A43F6CB0CF88D7D631557109002A29 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
-				36A92FBE1086B77D1B3E0C9ADFCC091D /* UIView+FLKAutoLayout.h in Headers */,
-				A95016C48DB5B24E6370C949F4F3A11C /* UIView+FLKAutoLayoutDebug.h in Headers */,
-				FE7E63AB33177F0F1A5A6061989BC96E /* UIView+FLKAutoLayoutPredicate.h in Headers */,
+				9F399E49374B0B7AD14D2D8A2E065790 /* Pods-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A334ACE3A867FAC8C5B2C076896049EC /* Pods */ = {
+		A34CA2CDCA33A9CF24A09EA980F8EDEE /* FLKAutoLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6951BF76590E206AD4ECD2D8CCDFDEB /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 0B150C0CA555267A9E87E89F3FDA4D65 /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */;
 			buildPhases = (
-				77AAEA832AFEF54D3C77E446810A0926 /* Sources */,
-				CA839856DCAD403D051DA33BE319AD5D /* Frameworks */,
-				4BD94271ADAA8D54467A7FFF62AD96BD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9D6174EBA3273ACDF579AF9F082F7A2 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = B37491E01CB71DF46298A64CE4495346 /* Pods.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C398F79A1D3510BDB57184BDA5C360E3 /* FLKAutoLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE6401FB207218552D00E6C1DA6AB17E /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */;
-			buildPhases = (
-				BF8CF290E26F88686BC9213A26654922 /* Sources */,
-				9A88657BB81854E36A5DC4C8D0743132 /* Frameworks */,
-				5A3B36B55F33EF2655CAB0EAE946F59E /* Headers */,
+				5CA05EA7A5AC435F6198D1121479ECAB /* Sources */,
+				4A4201AA79888F708625F32B1362BD5F /* Frameworks */,
+				43157636B93F4DFCB02DBB07756F3298 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -251,7 +231,25 @@
 			);
 			name = FLKAutoLayout;
 			productName = FLKAutoLayout;
-			productReference = 4236FFBF8088F75B556DD63F6967DE5D /* FLKAutoLayout.framework */;
+			productReference = 044CD19B79EA89F1CF4F20391D8A8E45 /* FLKAutoLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFB8302789C74CD838319E41828A5F66 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CFC88750C13BD339A6242E48A5A420 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				012EF360FB680728479F34AE78CD8CB7 /* Sources */,
+				8486EEE88A73247089FDA4C74FECD2C7 /* Frameworks */,
+				763E956EE21DBF56679D1D0367595ECF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45AA0FB3AFEEEB8798615E98F4F7D88A /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = BDA339BE032DCC99A4B6B67ED11FA2C0 /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -271,53 +269,53 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = BD7A59083C8AF348063A7F913749DF16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C398F79A1D3510BDB57184BDA5C360E3 /* FLKAutoLayout */,
-				A334ACE3A867FAC8C5B2C076896049EC /* Pods */,
+				A34CA2CDCA33A9CF24A09EA980F8EDEE /* FLKAutoLayout */,
+				CFB8302789C74CD838319E41828A5F66 /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		77AAEA832AFEF54D3C77E446810A0926 /* Sources */ = {
+		012EF360FB680728479F34AE78CD8CB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E18CB728684E7C6F3C49D386179C89D /* Pods-dummy.m in Sources */,
+				2FB46C1D1A01FE2B98931A96FB1C66DA /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF8CF290E26F88686BC9213A26654922 /* Sources */ = {
+		5CA05EA7A5AC435F6198D1121479ECAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4753A93905FB1E3737E597D5D1EA55 /* FLKAutoLayout-dummy.m in Sources */,
-				993BFB2FDA4AE4CAED7C86E81FD3EB1C /* FLKAutoLayoutPredicateList.m in Sources */,
-				B70CF349B227AC500152A36CF3116C76 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
-				C7EB1EBE74C9302D61D78A5E4D0A4ACB /* UIView+FLKAutoLayout.m in Sources */,
-				7DE3AC14F998CA73F863D782D4A8D9BA /* UIView+FLKAutoLayoutDebug.m in Sources */,
-				B4AB32B8FD6695A32BC2BAD8C6947453 /* UIView+FLKAutoLayoutPredicate.m in Sources */,
+				5BA48B6A50284B512AC324A09E176318 /* FLKAutoLayout-dummy.m in Sources */,
+				F646EE5358AC9C6651A46E90FDC60A27 /* FLKAutoLayoutPredicateList.m in Sources */,
+				9370343B151FDDE979AAF1385B876CC6 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
+				DC1CDF6B71C2C95075E4A22D98C248E0 /* UIView+FLKAutoLayout.m in Sources */,
+				E6C70086B6FCF91EF9FDBA77C1DE4ED7 /* UIView+FLKAutoLayoutDebug.m in Sources */,
+				0AAC2E5BA42566A52730DF1282D7F143 /* UIView+FLKAutoLayoutPredicate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B9D6174EBA3273ACDF579AF9F082F7A2 /* PBXTargetDependency */ = {
+		45AA0FB3AFEEEB8798615E98F4F7D88A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FLKAutoLayout;
-			target = C398F79A1D3510BDB57184BDA5C360E3 /* FLKAutoLayout */;
-			targetProxy = 4C96FD3145114DE91CB7E767966310A5 /* PBXContainerItemProxy */;
+			target = A34CA2CDCA33A9CF24A09EA980F8EDEE /* FLKAutoLayout */;
+			targetProxy = 9FCBD72A5CF40ED99C53DED1A70B5057 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FE07C657CC9F22C585D0F320A681199 /* Debug */ = {
+		3AB824366328DD29F3219798FD2B3552 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 114B5BCCDA46BF19A714E5881A9AB5BB /* Pods.debug.xcconfig */;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -330,8 +328,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -342,44 +341,17 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		184C15C6CF513A4776F2B8293F6597FD /* Debug */ = {
+		57F759D3CD298451538F07894C14D4BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 701AD6291E5C049AF71DA0DC09150D15 /* FLKAutoLayout-Private.xcconfig */;
+			baseConfigurationReference = 609762B3195FD40C40333A07F8BB4265 /* FLKAutoLayout.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.2.1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.2.1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FLKAutoLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		252FF4BA0E7B79C52403221935480390 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 701AD6291E5C049AF71DA0DC09150D15 /* FLKAutoLayout-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.2.1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.2.1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
@@ -437,6 +409,33 @@
 			};
 			name = Debug;
 		};
+		6FE13461EF746A16D99005AD3F076D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609762B3195FD40C40333A07F8BB4265 /* FLKAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -471,9 +470,9 @@
 			};
 			name = Release;
 		};
-		BFF304A1B63721423F212ED15EB07303 /* Release */ = {
+		C6523BF8F33204A563CFEBE5B68D2C19 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD72CAD17F2A3BEFA6ABDB7AFF4B170F /* Pods.release.xcconfig */;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -486,8 +485,9 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -498,11 +498,20 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B150C0CA555267A9E87E89F3FDA4D65 /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FE13461EF746A16D99005AD3F076D33 /* Debug */,
+				57F759D3CD298451538F07894C14D4BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -512,20 +521,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6951BF76590E206AD4ECD2D8CCDFDEB /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		D6CFC88750C13BD339A6242E48A5A420 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FE07C657CC9F22C585D0F320A681199 /* Debug */,
-				BFF304A1B63721423F212ED15EB07303 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE6401FB207218552D00E6C1DA6AB17E /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				184C15C6CF513A4776F2B8293F6597FD /* Debug */,
-				252FF4BA0E7B79C52403221935480390 /* Release */,
+				C6523BF8F33204A563CFEBE5B68D2C19 /* Debug */,
+				3AB824366328DD29F3219798FD2B3552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

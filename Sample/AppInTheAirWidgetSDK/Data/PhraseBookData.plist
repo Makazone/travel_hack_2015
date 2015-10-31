@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FR</key>
+	<dict>
+		<key>greeting_morning</key>
+		<dict>
+			<key>sound</key>
+			<string>fr_greeting_morning.mp3</string>
+			<key>script</key>
+			<string>bohn-ZHOOR</string>
+			<key>eng</key>
+			<string>Good morning</string>
+			<key>native</key>
+			<string>Bonjour</string>
+		</dict>
+		<key>greeting_noon</key>
+		<dict>
+			<key>sound</key>
+			<string>fr_greeting_noon.mp3</string>
+			<key>script</key>
+			<string>bohn-ZHOOR</string>
+			<key>eng</key>
+			<string>Good morning</string>
+			<key>native</key>
+			<string>Bonjour</string>
+		</dict>
+		<key>greeting_evening</key>
+		<dict>
+			<key>sound</key>
+			<string>fr_greeting_evening.mp3</string>
+			<key>script</key>
+			<string>bong-SWAHR</string>
+			<key>eng</key>
+			<string>Good evening</string>
+			<key>native</key>
+			<string>Bonsoir</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
