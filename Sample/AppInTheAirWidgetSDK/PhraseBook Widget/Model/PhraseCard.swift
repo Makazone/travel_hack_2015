@@ -12,10 +12,9 @@ class PhraseCard {
     var native:String = ""
     var cardDescription:String = ""
     var soundFilename:String = ""
+    var timeFilter:String = ""
 
-
-    
-    class func loadCardsForCountry(countryCode: String) -> [PhraseCard]? {
+    class func loadCardsForCountry(countryCode: String, filter: Bool) -> [PhraseCard]? {
         var cardModels = [PhraseCard]()
         
         let path = NSBundle.mainBundle().pathForResource("PhraseBookData", ofType: "plist")
@@ -30,12 +29,39 @@ class PhraseCard {
                 card.native = cardData["native"]!
                 card.cardDescription = cardData["cardDescription"]!
                 card.soundFilename = cardData["sound"]!
+                card.timeFilter = cardData["time"]!
                 
-                cardModels.append(card)
+                if self.isRightTime(card) || !filter {
+                    cardModels.append(card)
+                }
+
             }
         } else { return nil }
         
         return cardModels
+    }
+
+    class func isRightTime(card: PhraseCard) -> Bool {
+        let now = NSDate()
+        let cal = NSCalendar.currentCalendar()
+        let comps = cal.components(.Hour, fromDate: now)
+        let hour = comps.hour
+
+        print(hour)
+
+        var currentTimeOfDay = ""
+        switch hour {
+        case 0 ... 12:
+            currentTimeOfDay = "morning"
+        case 13 ... 17:
+            currentTimeOfDay = "noon"
+        default:
+            currentTimeOfDay = "evening"
+        }
+
+        if card.timeFilter == currentTimeOfDay || card.timeFilter == "any" {
+            return true
+        } else { return false }
     }
 
     var audioPlayer : AVAudioPlayer! = nil

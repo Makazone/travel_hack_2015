@@ -9,6 +9,10 @@
 import UIKit
 import WidgetSDK
 
+protocol PhraseCellWidgetDelegate {
+    func showAllCards()
+}
+
 class ChecklistWidgetCell: WidgetCell {
     
     @IBOutlet weak var labelTitle: UILabel!
@@ -16,6 +20,7 @@ class ChecklistWidgetCell: WidgetCell {
 
     var countryCode:String = ""
     var cards:[PhraseCard] = []
+    var delegate:PhraseCellWidgetDelegate?
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -28,13 +33,18 @@ class ChecklistWidgetCell: WidgetCell {
     }
     
     func loadCards() {
-        let cards = PhraseCard.loadCardsForCountry(self.countryCode)
+        let cards = PhraseCard.loadCardsForCountry(self.countryCode, filter: true)
         if cards != nil {
             self.cards = cards!
         }
         self.collectionView.reloadData()
     }
 
+    @IBAction func showAllCards(sender: AnyObject) {
+        if let delegate = self.delegate {
+            delegate.showAllCards()
+        }
+    }
 }
 
 extension ChecklistWidgetCell: UICollectionViewDataSource {

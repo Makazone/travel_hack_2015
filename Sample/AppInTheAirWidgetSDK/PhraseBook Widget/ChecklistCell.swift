@@ -10,7 +10,6 @@ import UIKit
 
 class ChecklistCell: UITableViewCell {
 
-    @IBOutlet weak var imageCheck: UIImageView!
     @IBOutlet weak var labelItem: UILabel!
     
     override func awakeFromNib() {

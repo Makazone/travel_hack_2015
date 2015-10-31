@@ -14,30 +14,30 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Jb-j6-5Rf">
-                        <rect key="frame" x="0.0" y="28" width="292" height="90"/>
+                        <rect key="frame" x="0.0" y="26" width="292" height="95"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To greet someone, say.." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpc-Nn-vHc">
-                                <rect key="frame" x="0.0" y="0.0" width="292" height="16"/>
+                                <rect key="frame" x="0.0" y="0.0" width="292" height="17"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bonsoir" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZi-Up-Coz">
-                                <rect key="frame" x="0.0" y="16" width="292" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bonsoir" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZi-Up-Coz">
+                                <rect key="frame" x="0.0" y="17" width="292" height="40"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good evening" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwd-1g-NHD">
-                                <rect key="frame" x="0.0" y="72" width="292" height="18"/>
+                                <rect key="frame" x="0.0" y="77" width="292" height="18"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(bong-SWAHR)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2c4-n1-Bku">
-                                <rect key="frame" x="0.0" y="53" width="292" height="18"/>
+                                <rect key="frame" x="0.0" y="58" width="292" height="18"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="highlightedColor"/>
@@ -66,7 +66,7 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <animations/>
-            <color key="backgroundColor" red="0.86666666670000003" green="0.43137254899999999" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="3Jb-j6-5Rf" secondAttribute="trailing" id="Jjp-TS-ohP"/>
                 <constraint firstItem="3Jb-j6-5Rf" firstAttribute="centerY" secondItem="u6t-XJ-dNl" secondAttribute="centerY" id="Wd1-ZD-0Sn"/>

@@ -53,10 +53,20 @@ class ChecklistWidget: NSObject, TripWidget {
     func configureCell(reusableCell: UICollectionViewCell) {
         let cell = reusableCell as! ChecklistWidgetCell
         
+        cell.delegate = self
         cell.countryCode = self.flight.airportDestination.country
         cell.loadCards()
     }
     
     //MARK: Widget Methods
     
+}
+
+extension ChecklistWidget:PhraseCellWidgetDelegate {
+    func showAllCards() {
+        let checklistController = ChecklistViewController()
+        checklistController.cards = PhraseCard.loadCardsForCountry(self.flight.airportDestination.country, filter: false)!
+        checklistController.modalPresentationStyle = .FormSheet
+        self.dashboard.presentWidgetController(checklistController)
+    }
 }

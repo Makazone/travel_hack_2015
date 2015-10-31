@@ -15,6 +15,11 @@
 		CA9650261BE4E77C00850C0C /* fr_greeting_noon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA9650231BE4E77C00850C0C /* fr_greeting_noon.mp3 */; };
 		CA9650281BE4EE3600850C0C /* PhraseBookItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA9650271BE4EE3600850C0C /* PhraseBookItemCell.xib */; };
 		CA96502A1BE4F61300850C0C /* PhraseCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9650291BE4F61300850C0C /* PhraseCardCell.swift */; };
+		CA96502F1BE51BC500850C0C /* jemappelle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA96502B1BE51BC500850C0C /* jemappelle.mp3 */; };
+		CA9650301BE51BC500850C0C /* mercibcp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA96502C1BE51BC500850C0C /* mercibcp.mp3 */; };
+		CA9650311BE51BC500850C0C /* non.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA96502D1BE51BC500850C0C /* non.mp3 */; };
+		CA9650321BE51BC500850C0C /* oui.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA96502E1BE51BC500850C0C /* oui.mp3 */; };
+		CA9650341BE51BCD00850C0C /* cava2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA9650331BE51BCD00850C0C /* cava2.mp3 */; };
 		D50BDA4C1BE3DC6D0061A151 /* ChecklistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA401BE3DC6D0061A151 /* ChecklistCell.swift */; };
 		D50BDA4D1BE3DC6D0061A151 /* ChecklistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA411BE3DC6D0061A151 /* ChecklistCell.xib */; };
 		D50BDA4E1BE3DC6D0061A151 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */; };
@@ -64,6 +69,11 @@
 		CA9650231BE4E77C00850C0C /* fr_greeting_noon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fr_greeting_noon.mp3; sourceTree = "<group>"; };
 		CA9650271BE4EE3600850C0C /* PhraseBookItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhraseBookItemCell.xib; path = ../PhraseBookItemCell.xib; sourceTree = "<group>"; };
 		CA9650291BE4F61300850C0C /* PhraseCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseCardCell.swift; sourceTree = "<group>"; };
+		CA96502B1BE51BC500850C0C /* jemappelle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jemappelle.mp3; sourceTree = "<group>"; };
+		CA96502C1BE51BC500850C0C /* mercibcp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mercibcp.mp3; sourceTree = "<group>"; };
+		CA96502D1BE51BC500850C0C /* non.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = non.mp3; sourceTree = "<group>"; };
+		CA96502E1BE51BC500850C0C /* oui.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oui.mp3; sourceTree = "<group>"; };
+		CA9650331BE51BCD00850C0C /* cava2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cava2.mp3; sourceTree = "<group>"; };
 		D50BDA401BE3DC6D0061A151 /* ChecklistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistCell.swift; sourceTree = "<group>"; };
 		D50BDA411BE3DC6D0061A151 /* ChecklistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChecklistCell.xib; sourceTree = "<group>"; };
 		D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
@@ -166,6 +176,11 @@
 		CA9650201BE4E77C00850C0C /* Greeting */ = {
 			isa = PBXGroup;
 			children = (
+				CA9650331BE51BCD00850C0C /* cava2.mp3 */,
+				CA96502B1BE51BC500850C0C /* jemappelle.mp3 */,
+				CA96502C1BE51BC500850C0C /* mercibcp.mp3 */,
+				CA96502D1BE51BC500850C0C /* non.mp3 */,
+				CA96502E1BE51BC500850C0C /* oui.mp3 */,
 				CA9650211BE4E77C00850C0C /* fr_greeting_evening.mp3 */,
 				CA9650221BE4E77C00850C0C /* fr_greeting_morning.mp3 */,
 				CA9650231BE4E77C00850C0C /* fr_greeting_noon.mp3 */,
@@ -301,9 +316,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9650311BE51BC500850C0C /* non.mp3 in Resources */,
 				CA9650281BE4EE3600850C0C /* PhraseBookItemCell.xib in Resources */,
 				D50BDA521BE3DC6D0061A151 /* feed_widget_checklist@2x.png in Resources */,
 				D50BDA511BE3DC6D0061A151 /* PhraseBookWidgetCell.xib in Resources */,
+				CA9650321BE51BC500850C0C /* oui.mp3 in Resources */,
 				D50BDA531BE3DC6D0061A151 /* feed_widget_checklist@3x.png in Resources */,
 				CA9650261BE4E77C00850C0C /* fr_greeting_noon.mp3 in Resources */,
 				D5193B121BD3F4D4006D69F6 /* LaunchScreen.storyboard in Resources */,
@@ -313,7 +330,10 @@
 				CA9650241BE4E77C00850C0C /* fr_greeting_evening.mp3 in Resources */,
 				D50BDA651BE3DD6A0061A151 /* WidgetSDKBundle.bundle in Resources */,
 				D5193B0D1BD3F4D4006D69F6 /* Main.storyboard in Resources */,
+				CA9650301BE51BC500850C0C /* mercibcp.mp3 in Resources */,
 				24324AF9D275712580F4ADB7 /* PhraseBookData.plist in Resources */,
+				CA9650341BE51BCD00850C0C /* cava2.mp3 in Resources */,
+				CA96502F1BE51BC500850C0C /* jemappelle.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

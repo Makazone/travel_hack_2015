@@ -13,7 +13,7 @@ class ChecklistViewController: UIViewController {
     
     let tableView = UITableView()
     
-    var todoItems = [TodoItem]()
+    var cards = [PhraseCard]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,28 +38,29 @@ class ChecklistViewController: UIViewController {
 //MARK: - UITableViewDelegate
 extension ChecklistViewController: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let item = todoItems[indexPath.row]
-        item.checked = !item.checked
-        
-        tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
-        
-        CoreDataHelper.instance.save()
+        let item = cards[indexPath.row]
+        item.playSound()
+//        item.checked = !item.checked
+
+//        tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+
+//        CoreDataHelper.instance.save()
     }
 }
 
 //MARK: - UITableViewDataSource
 extension ChecklistViewController: UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return todoItems.count
+        return cards.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("ChecklistCell") as! ChecklistCell
         
-        let item = todoItems[indexPath.row]
+        let item = cards[indexPath.row]
         
-        cell.labelItem.text = item.text
-        cell.imageCheck.image = UIImage(named: item.checked ? "feed_checklist_check" : "feed_checklist_uncheck")
+        cell.labelItem.text = item.native + " - " + item.engTranslation
+//        cell.imageCheck.image = UIImage(named: item.checked ? "feed_checklist_check" : "feed_checklist_uncheck")
         
         return cell
     }

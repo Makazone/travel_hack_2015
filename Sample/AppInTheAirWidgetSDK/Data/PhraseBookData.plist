@@ -5,6 +5,8 @@
 	<key>FR</key>
 	<array>
 		<dict>
+			<key>time</key>
+			<string>morning</string>
 			<key>sound</key>
 			<string>fr_greeting_morning</string>
 			<key>script</key>
@@ -17,6 +19,8 @@
 			<string>To greet someone say..</string>
 		</dict>
 		<dict>
+			<key>time</key>
+			<string>noon</string>
 			<key>sound</key>
 			<string>fr_greeting_noon</string>
 			<key>script</key>
@@ -29,6 +33,8 @@
 			<string>To greet someone say..</string>
 		</dict>
 		<dict>
+			<key>time</key>
+			<string>evening</string>
 			<key>sound</key>
 			<string>fr_greeting_evening</string>
 			<key>script</key>
@@ -39,6 +45,76 @@
 			<string>Bonsoir</string>
 			<key>cardDescription</key>
 			<string>To greet someone say..</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>any</string>
+			<key>sound</key>
+			<string>mercibcp</string>
+			<key>script</key>
+			<string>mair-SEE</string>
+			<key>eng</key>
+			<string>Thank you</string>
+			<key>native</key>
+			<string>Merci</string>
+			<key>cardDescription</key>
+			<string>Be polite and say..</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>any</string>
+			<key>sound</key>
+			<string>oui</string>
+			<key>script</key>
+			<string>mair-SEE</string>
+			<key>eng</key>
+			<string>Yes</string>
+			<key>native</key>
+			<string>Oui</string>
+			<key>cardDescription</key>
+			<string>To agree..</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>any</string>
+			<key>sound</key>
+			<string>non</string>
+			<key>script</key>
+			<string>mair-SEE</string>
+			<key>eng</key>
+			<string>No</string>
+			<key>native</key>
+			<string>Non</string>
+			<key>cardDescription</key>
+			<string>To disagree..</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>any</string>
+			<key>sound</key>
+			<string>cava2</string>
+			<key>script</key>
+			<string>mair-SEE</string>
+			<key>eng</key>
+			<string>How are you?</string>
+			<key>native</key>
+			<string>Ça va</string>
+			<key>cardDescription</key>
+			<string>Informal</string>
+		</dict>
+		<dict>
+			<key>time</key>
+			<string>any</string>
+			<key>sound</key>
+			<string>jemappelle</string>
+			<key>script</key>
+			<string>mair-SEE</string>
+			<key>eng</key>
+			<string>My name is...</string>
+			<key>native</key>
+			<string>Je m&apos;appelle...</string>
+			<key>cardDescription</key>
+			<string>To make connections..</string>
 		</dict>
 	</array>
 </dict>
