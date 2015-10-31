@@ -13,64 +13,72 @@
                 <rect key="frame" x="0.0" y="0.0" width="292" height="146"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To greet someone, say.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpc-Nn-vHc">
-                        <rect key="frame" x="8" y="10" width="276" height="18"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Jb-j6-5Rf">
+                        <rect key="frame" x="0.0" y="28" width="292" height="90"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To greet someone, say.." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpc-Nn-vHc">
+                                <rect key="frame" x="0.0" y="0.0" width="292" height="16"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bonsoir" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZi-Up-Coz">
+                                <rect key="frame" x="0.0" y="16" width="292" height="36"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good evening" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwd-1g-NHD">
+                                <rect key="frame" x="0.0" y="72" width="292" height="18"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(bong-SWAHR)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2c4-n1-Bku">
+                                <rect key="frame" x="0.0" y="53" width="292" height="18"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bonsoir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZi-Up-Coz">
-                        <rect key="frame" x="8" y="33" width="276" height="24"/>
-                        <animations/>
-                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(bong-SWAHR)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2c4-n1-Bku">
-                        <rect key="frame" x="8" y="62" width="276" height="21"/>
-                        <animations/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good evening" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwd-1g-NHD">
-                        <rect key="frame" x="8" y="88" width="276" height="18"/>
-                        <animations/>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1f-Ym-7Uf">
-                        <rect key="frame" x="8" y="111" width="42" height="30"/>
-                        <animations/>
-                        <state key="normal" title="Listen"/>
-                        <connections>
-                            <action selector="playCard:" destination="u6t-XJ-dNl" eventType="touchUpInside" id="418-Oa-WKj"/>
-                        </connections>
-                    </button>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2c4-n1-Bku" secondAttribute="trailing" id="24i-B2-uaf"/>
+                            <constraint firstItem="2c4-n1-Bku" firstAttribute="leading" secondItem="3Jb-j6-5Rf" secondAttribute="leading" id="2gm-Sh-iIM"/>
+                            <constraint firstItem="cpc-Nn-vHc" firstAttribute="leading" secondItem="3Jb-j6-5Rf" secondAttribute="leading" id="4FE-MZ-TWT"/>
+                            <constraint firstItem="Mwd-1g-NHD" firstAttribute="leading" secondItem="3Jb-j6-5Rf" secondAttribute="leading" id="5Cs-11-yxp"/>
+                            <constraint firstItem="aZi-Up-Coz" firstAttribute="top" secondItem="cpc-Nn-vHc" secondAttribute="bottom" id="7vq-N8-05F"/>
+                            <constraint firstAttribute="trailing" secondItem="Mwd-1g-NHD" secondAttribute="trailing" id="9EH-fa-KKV"/>
+                            <constraint firstAttribute="bottom" secondItem="Mwd-1g-NHD" secondAttribute="bottom" id="JKQ-Gd-cmv"/>
+                            <constraint firstItem="Mwd-1g-NHD" firstAttribute="top" secondItem="2c4-n1-Bku" secondAttribute="bottom" constant="1" id="Psy-pp-658"/>
+                            <constraint firstAttribute="trailing" secondItem="aZi-Up-Coz" secondAttribute="trailing" id="S3Y-se-rdg"/>
+                            <constraint firstAttribute="trailing" secondItem="cpc-Nn-vHc" secondAttribute="trailing" id="XI0-W0-ONw"/>
+                            <constraint firstItem="cpc-Nn-vHc" firstAttribute="top" secondItem="3Jb-j6-5Rf" secondAttribute="top" id="lfm-6Y-QZH"/>
+                            <constraint firstItem="2c4-n1-Bku" firstAttribute="top" secondItem="aZi-Up-Coz" secondAttribute="bottom" constant="1" id="o2v-XF-tiN"/>
+                            <constraint firstItem="aZi-Up-Coz" firstAttribute="leading" secondItem="3Jb-j6-5Rf" secondAttribute="leading" id="wV8-bg-gxm"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <animations/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <animations/>
+            <color key="backgroundColor" red="0.86666666670000003" green="0.43137254899999999" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="Mwd-1g-NHD" firstAttribute="leading" secondItem="aZi-Up-Coz" secondAttribute="leading" id="4fD-iT-vT7"/>
-                <constraint firstItem="cpc-Nn-vHc" firstAttribute="leading" secondItem="u6t-XJ-dNl" secondAttribute="leading" constant="8" id="IyY-pd-Rh9"/>
-                <constraint firstItem="2c4-n1-Bku" firstAttribute="leading" secondItem="aZi-Up-Coz" secondAttribute="leading" id="NLN-vG-9fG"/>
-                <constraint firstAttribute="bottom" secondItem="k1f-Ym-7Uf" secondAttribute="bottom" constant="5" id="ObF-Rf-dnP"/>
-                <constraint firstItem="2c4-n1-Bku" firstAttribute="top" secondItem="aZi-Up-Coz" secondAttribute="bottom" constant="5" id="R5m-4y-1GA"/>
-                <constraint firstItem="cpc-Nn-vHc" firstAttribute="top" secondItem="u6t-XJ-dNl" secondAttribute="top" constant="10" id="SLR-ED-7MT"/>
-                <constraint firstAttribute="trailing" secondItem="2c4-n1-Bku" secondAttribute="trailing" constant="8" id="TOS-4Z-BWu"/>
-                <constraint firstItem="Mwd-1g-NHD" firstAttribute="top" secondItem="2c4-n1-Bku" secondAttribute="bottom" constant="5" id="XUE-c5-WYU"/>
-                <constraint firstItem="aZi-Up-Coz" firstAttribute="top" secondItem="cpc-Nn-vHc" secondAttribute="bottom" constant="5" id="ZIB-pR-lAr"/>
-                <constraint firstAttribute="trailing" secondItem="Mwd-1g-NHD" secondAttribute="trailing" constant="8" id="gtf-fA-ngZ"/>
-                <constraint firstAttribute="trailing" secondItem="cpc-Nn-vHc" secondAttribute="trailing" constant="8" id="hOh-wN-0GT"/>
-                <constraint firstAttribute="trailing" secondItem="aZi-Up-Coz" secondAttribute="trailing" constant="8" id="lzF-jo-K22"/>
-                <constraint firstItem="aZi-Up-Coz" firstAttribute="leading" secondItem="cpc-Nn-vHc" secondAttribute="leading" id="rvE-OQ-Qtk"/>
-                <constraint firstItem="k1f-Ym-7Uf" firstAttribute="top" secondItem="Mwd-1g-NHD" secondAttribute="bottom" constant="5" id="txV-Ik-7Vg"/>
-                <constraint firstItem="k1f-Ym-7Uf" firstAttribute="leading" secondItem="u6t-XJ-dNl" secondAttribute="leading" constant="8" id="xTf-u1-edE"/>
+                <constraint firstAttribute="trailing" secondItem="3Jb-j6-5Rf" secondAttribute="trailing" id="Jjp-TS-ohP"/>
+                <constraint firstItem="3Jb-j6-5Rf" firstAttribute="centerY" secondItem="u6t-XJ-dNl" secondAttribute="centerY" id="Wd1-ZD-0Sn"/>
+                <constraint firstItem="3Jb-j6-5Rf" firstAttribute="centerX" secondItem="u6t-XJ-dNl" secondAttribute="centerX" id="pxR-so-2LZ"/>
+                <constraint firstItem="3Jb-j6-5Rf" firstAttribute="leading" secondItem="u6t-XJ-dNl" secondAttribute="leading" id="wn6-Gl-dIR"/>
             </constraints>
             <size key="customSize" width="292" height="146"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="pxR-so-2LZ"/>
+                </mask>
+            </variation>
             <connections>
                 <outlet property="cardDescription" destination="cpc-Nn-vHc" id="tAB-vf-U1c"/>
                 <outlet property="engTranslation" destination="Mwd-1g-NHD" id="EQB-fv-7Pu"/>

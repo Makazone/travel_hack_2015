@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>FR</key>
-	<dict>
-		<key>greeting_morning</key>
+	<array>
 		<dict>
 			<key>sound</key>
 			<string>fr_greeting_morning.mp3</string>
@@ -14,19 +13,21 @@
 			<string>Good morning</string>
 			<key>native</key>
 			<string>Bonjour</string>
+			<key>cardDescription</key>
+			<string>To greet someone say..</string>
 		</dict>
-		<key>greeting_noon</key>
 		<dict>
 			<key>sound</key>
 			<string>fr_greeting_noon.mp3</string>
 			<key>script</key>
 			<string>bohn-ZHOOR</string>
 			<key>eng</key>
-			<string>Good morning</string>
+			<string>Good afternoon</string>
 			<key>native</key>
 			<string>Bonjour</string>
+			<key>cardDescription</key>
+			<string>To greet someone say..</string>
 		</dict>
-		<key>greeting_evening</key>
 		<dict>
 			<key>sound</key>
 			<string>fr_greeting_evening.mp3</string>
@@ -36,7 +37,9 @@
 			<string>Good evening</string>
 			<key>native</key>
 			<string>Bonsoir</string>
+			<key>cardDescription</key>
+			<string>To greet someone say..</string>
 		</dict>
-	</dict>
+	</array>
 </dict>
 </plist>

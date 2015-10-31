@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243244F509E817E518919AB1 /* PhraseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243243C0F9B7E68A967191D2 /* PhraseCard.swift */; };
 		24324AF9D275712580F4ADB7 /* PhraseBookData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24324ED7546299725060E742 /* PhraseBookData.plist */; };
 		678072A5FA50D50FA4C382BE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6241C478B3A703A2DAEE4553 /* Pods.framework */; };
 		CA9650241BE4E77C00850C0C /* fr_greeting_evening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA9650211BE4E77C00850C0C /* fr_greeting_evening.mp3 */; };
@@ -53,6 +54,7 @@
 /* Begin PBXFileReference section */
 		02719D0E761947C634955235 /* Pods-WidgetSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidgetSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WidgetSDK/Pods-WidgetSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		06A92AC9558C436EF1A59915 /* Pods_WidgetSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WidgetSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		243243C0F9B7E68A967191D2 /* PhraseCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseCard.swift; sourceTree = "<group>"; };
 		24324ED7546299725060E742 /* PhraseBookData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = PhraseBookData.plist; sourceTree = "<group>"; };
 		39F5AD497DBD59F998DB04FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6241C478B3A703A2DAEE4553 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +62,7 @@
 		CA9650211BE4E77C00850C0C /* fr_greeting_evening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fr_greeting_evening.mp3; sourceTree = "<group>"; };
 		CA9650221BE4E77C00850C0C /* fr_greeting_morning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fr_greeting_morning.mp3; sourceTree = "<group>"; };
 		CA9650231BE4E77C00850C0C /* fr_greeting_noon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fr_greeting_noon.mp3; sourceTree = "<group>"; };
-		CA9650271BE4EE3600850C0C /* PhraseBookItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhraseBookItemCell.xib; sourceTree = "<group>"; };
+		CA9650271BE4EE3600850C0C /* PhraseBookItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhraseBookItemCell.xib; path = ../PhraseBookItemCell.xib; sourceTree = "<group>"; };
 		CA9650291BE4F61300850C0C /* PhraseCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseCardCell.swift; sourceTree = "<group>"; };
 		D50BDA401BE3DC6D0061A151 /* ChecklistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistCell.swift; sourceTree = "<group>"; };
 		D50BDA411BE3DC6D0061A151 /* ChecklistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChecklistCell.xib; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		2432454DCB24EA836C73F692 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				243243C0F9B7E68A967191D2 /* PhraseCard.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +112,7 @@
 		243248628DA338F2FB198705 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CA9650271BE4EE3600850C0C /* PhraseBookItemCell.xib */,
 				CA9650291BE4F61300850C0C /* PhraseCardCell.swift */,
 			);
 			path = View;
@@ -183,7 +187,6 @@
 				D50BDA481BE3DC6D0061A151 /* Model.xcdatamodeld */,
 				D50BDA4A1BE3DC6D0061A151 /* TodoItem+CoreData.swift */,
 				D50BDA4B1BE3DC6D0061A151 /* TodoItem.swift */,
-				CA9650271BE4EE3600850C0C /* PhraseBookItemCell.xib */,
 				243248628DA338F2FB198705 /* View */,
 				2432454DCB24EA836C73F692 /* Model */,
 			);
@@ -380,6 +383,7 @@
 				D50BDA551BE3DC6D0061A151 /* TodoItem+CoreData.swift in Sources */,
 				D50BDA4E1BE3DC6D0061A151 /* ChecklistViewController.swift in Sources */,
 				D5D510011BD9E633001B2A0E /* Model-Samples.swift in Sources */,
+				243244F509E817E518919AB1 /* PhraseCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

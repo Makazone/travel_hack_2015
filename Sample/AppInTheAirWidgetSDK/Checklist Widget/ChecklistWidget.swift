@@ -53,13 +53,8 @@ class ChecklistWidget: NSObject, TripWidget {
     func configureCell(reusableCell: UICollectionViewCell) {
         let cell = reusableCell as! ChecklistWidgetCell
         
-//        let uncheckedCount = items.reduce(0, combine: { $0 + ($1.checked ? 0 : 1) })
-//        
-//        if uncheckedCount > 0 {
-//            cell.labelContent.text = String(format: NSLocalizedString("%d items left", comment: "checklist widget items left"), uncheckedCount)
-//        } else {
-//            cell.labelContent.text = NSLocalizedString("All done. Happy flying!", comment: "checklist widget items left")
-//        }
+        cell.countryCode = self.flight.airportDestination.country
+        cell.loadCards()
     }
     
     //MARK: Widget Methods

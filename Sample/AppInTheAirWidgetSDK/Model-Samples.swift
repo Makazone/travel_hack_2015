@@ -36,6 +36,19 @@ extension Airport {
         airport.countryFullName = "United States"
         return airport
     }
+    
+    class var sampleAirport_CDG: Airport {
+        let airport = Airport()
+        airport.city = "Paris"
+        airport.code = "CDG"
+        airport.name = "Charles de Gaulle Airport"
+        airport.offset = -4
+        airport.latitude = 40.642334
+        airport.longitude = -73.78817
+        airport.country = "FR"
+        airport.countryFullName = "France"
+        return airport
+    }
 }
 
 extension Airline {
@@ -63,7 +76,7 @@ extension FlightInfo {
     class var sampleFlight: FlightInfo {
         let flight = FlightInfo()
         flight.airportOrigin = Airport.sampleAirport_SVO
-        flight.airportDestination = Airport.sampleAirport_JFK
+        flight.airportDestination = Airport.sampleAirport_CDG
         flight.airlineCode = "DL"
         flight.airline = Airline.sampleAirline
         flight.aircraft = "100"
