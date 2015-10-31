@@ -12,6 +12,8 @@
 		CA9650241BE4E77C00850C0C /* fr_greeting_evening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA9650211BE4E77C00850C0C /* fr_greeting_evening.mp3 */; };
 		CA9650251BE4E77C00850C0C /* fr_greeting_morning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA9650221BE4E77C00850C0C /* fr_greeting_morning.mp3 */; };
 		CA9650261BE4E77C00850C0C /* fr_greeting_noon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA9650231BE4E77C00850C0C /* fr_greeting_noon.mp3 */; };
+		CA9650281BE4EE3600850C0C /* PhraseBookItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA9650271BE4EE3600850C0C /* PhraseBookItemCell.xib */; };
+		CA96502A1BE4F61300850C0C /* PhraseCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9650291BE4F61300850C0C /* PhraseCardCell.swift */; };
 		D50BDA4C1BE3DC6D0061A151 /* ChecklistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA401BE3DC6D0061A151 /* ChecklistCell.swift */; };
 		D50BDA4D1BE3DC6D0061A151 /* ChecklistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50BDA411BE3DC6D0061A151 /* ChecklistCell.xib */; };
 		D50BDA4E1BE3DC6D0061A151 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */; };
@@ -28,7 +30,6 @@
 		D5193B0D1BD3F4D4006D69F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5193B0B1BD3F4D4006D69F6 /* Main.storyboard */; };
 		D5193B0F1BD3F4D4006D69F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5193B0E1BD3F4D4006D69F6 /* Assets.xcassets */; };
 		D5193B121BD3F4D4006D69F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5193B101BD3F4D4006D69F6 /* LaunchScreen.storyboard */; };
-		D55B932C1BE4D92C00A5A214 /* AAChecklistWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = D55B932B1BE4D92C00A5A214 /* AAChecklistWidget.m */; };
 		D59B89781BE3E5E600CBC805 /* WidgetSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59B89771BE3E5E600CBC805 /* WidgetSDK.framework */; };
 		D59B897B1BE3E8E600CBC805 /* WidgetSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D59B89771BE3E5E600CBC805 /* WidgetSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D5D510011BD9E633001B2A0E /* Model-Samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D510001BD9E633001B2A0E /* Model-Samples.swift */; };
@@ -59,6 +60,8 @@
 		CA9650211BE4E77C00850C0C /* fr_greeting_evening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fr_greeting_evening.mp3; sourceTree = "<group>"; };
 		CA9650221BE4E77C00850C0C /* fr_greeting_morning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fr_greeting_morning.mp3; sourceTree = "<group>"; };
 		CA9650231BE4E77C00850C0C /* fr_greeting_noon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fr_greeting_noon.mp3; sourceTree = "<group>"; };
+		CA9650271BE4EE3600850C0C /* PhraseBookItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhraseBookItemCell.xib; sourceTree = "<group>"; };
+		CA9650291BE4F61300850C0C /* PhraseCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseCardCell.swift; sourceTree = "<group>"; };
 		D50BDA401BE3DC6D0061A151 /* ChecklistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistCell.swift; sourceTree = "<group>"; };
 		D50BDA411BE3DC6D0061A151 /* ChecklistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChecklistCell.xib; sourceTree = "<group>"; };
 		D50BDA421BE3DC6D0061A151 /* ChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
@@ -77,9 +80,6 @@
 		D5193B0E1BD3F4D4006D69F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5193B111BD3F4D4006D69F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5193B131BD3F4D4006D69F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D55B93291BE4D92B00A5A214 /* AppInTheAirWidgetSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppInTheAirWidgetSDK-Bridging-Header.h"; sourceTree = "<group>"; };
-		D55B932A1BE4D92C00A5A214 /* AAChecklistWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChecklistWidget.h; sourceTree = "<group>"; };
-		D55B932B1BE4D92C00A5A214 /* AAChecklistWidget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChecklistWidget.m; sourceTree = "<group>"; };
 		D59B89771BE3E5E600CBC805 /* WidgetSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WidgetSDK.framework; sourceTree = "<group>"; };
 		D5D510001BD9E633001B2A0E /* Model-Samples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model-Samples.swift"; sourceTree = "<group>"; };
 		D5D5100C1BD9EC6D001B2A0E /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
@@ -99,6 +99,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2432454DCB24EA836C73F692 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		243248628DA338F2FB198705 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA9650291BE4F61300850C0C /* PhraseCardCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		24324ED82F07886DA9B9F7D7 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +183,9 @@
 				D50BDA481BE3DC6D0061A151 /* Model.xcdatamodeld */,
 				D50BDA4A1BE3DC6D0061A151 /* TodoItem+CoreData.swift */,
 				D50BDA4B1BE3DC6D0061A151 /* TodoItem.swift */,
+				CA9650271BE4EE3600850C0C /* PhraseBookItemCell.xib */,
+				243248628DA338F2FB198705 /* View */,
+				2432454DCB24EA836C73F692 /* Model */,
 			);
 			path = "Checklist Widget";
 			sourceTree = "<group>";
@@ -211,21 +229,10 @@
 				D5193B101BD3F4D4006D69F6 /* LaunchScreen.storyboard */,
 				D5193B131BD3F4D4006D69F6 /* Info.plist */,
 				D5D5100C1BD9EC6D001B2A0E /* CoreDataHelper.swift */,
-				D55B93281BE4D91900A5A214 /* Objc Checklist Widget */,
 				D50BDA3F1BE3DC6D0061A151 /* Checklist Widget */,
 				24324ED82F07886DA9B9F7D7 /* Data */,
 			);
 			path = AppInTheAirWidgetSDK;
-			sourceTree = "<group>";
-		};
-		D55B93281BE4D91900A5A214 /* Objc Checklist Widget */ = {
-			isa = PBXGroup;
-			children = (
-				D55B93291BE4D92B00A5A214 /* AppInTheAirWidgetSDK-Bridging-Header.h */,
-				D55B932A1BE4D92C00A5A214 /* AAChecklistWidget.h */,
-				D55B932B1BE4D92C00A5A214 /* AAChecklistWidget.m */,
-			);
-			path = "Objc Checklist Widget";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +271,7 @@
 				TargetAttributes = {
 					D5193B031BD3F4D4006D69F6 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 375G5K6E3F;
 					};
 				};
 			};
@@ -290,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9650281BE4EE3600850C0C /* PhraseBookItemCell.xib in Resources */,
 				D50BDA521BE3DC6D0061A151 /* feed_widget_checklist@2x.png in Resources */,
 				D50BDA511BE3DC6D0061A151 /* ChecklistWidgetCell.xib in Resources */,
 				D50BDA531BE3DC6D0061A151 /* feed_widget_checklist@3x.png in Resources */,
@@ -360,11 +369,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA96502A1BE4F61300850C0C /* PhraseCardCell.swift in Sources */,
 				D50BDA561BE3DC6D0061A151 /* TodoItem.swift in Sources */,
 				D50BDA4C1BE3DC6D0061A151 /* ChecklistCell.swift in Sources */,
 				D5D5100D1BD9EC6D001B2A0E /* CoreDataHelper.swift in Sources */,
 				D50BDA501BE3DC6D0061A151 /* ChecklistWidgetCell.swift in Sources */,
-				D55B932C1BE4D92C00A5A214 /* AAChecklistWidget.m in Sources */,
 				D50BDA541BE3DC6D0061A151 /* Model.xcdatamodeld in Sources */,
 				D50BDA4F1BE3DC6D0061A151 /* ChecklistWidget.swift in Sources */,
 				D5193B081BD3F4D4006D69F6 /* AppDelegate.swift in Sources */,
@@ -485,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,7 +505,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobi.appintheair.sdk.AppInTheAirWidgetSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "AppInTheAirWidgetSDK/Objc Checklist Widget/AppInTheAirWidgetSDK-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -506,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -516,7 +526,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mobi.appintheair.sdk.AppInTheAirWidgetSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "AppInTheAirWidgetSDK/Objc Checklist Widget/AppInTheAirWidgetSDK-Bridging-Header.h";
 			};
 			name = Release;
 		};

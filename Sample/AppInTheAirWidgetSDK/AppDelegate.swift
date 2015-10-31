@@ -34,9 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //don't forget to register your widget class at DashboardManager
         DashboardManager.registerWidgetClass(ChecklistWidget.self)
         
-        //this is objective-c widget. put #import to `Bridging-Header` in order to use it in such way
-        DashboardManager.registerWidgetClass(AAChecklistWidget.self)
-        
+
         window!.rootViewController = UINavigationController(rootViewController: dashboard)
         window!.makeKeyAndVisible()
         

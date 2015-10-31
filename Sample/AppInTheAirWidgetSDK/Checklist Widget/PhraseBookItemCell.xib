@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="u6t-XJ-dNl" customClass="PhraseCardCell" customModule="AppInTheAirWidgetSDK" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="292" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="292" height="146"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To greet someone, say.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpc-Nn-vHc">
+                        <rect key="frame" x="8" y="10" width="276" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bonsoir" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZi-Up-Coz">
+                        <rect key="frame" x="8" y="33" width="276" height="24"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(bong-SWAHR)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2c4-n1-Bku">
+                        <rect key="frame" x="8" y="62" width="276" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good evening" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwd-1g-NHD">
+                        <rect key="frame" x="8" y="88" width="276" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1f-Ym-7Uf">
+                        <rect key="frame" x="8" y="111" width="42" height="30"/>
+                        <animations/>
+                        <state key="normal" title="Listen"/>
+                        <connections>
+                            <action selector="playCard:" destination="u6t-XJ-dNl" eventType="touchUpInside" id="418-Oa-WKj"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstItem="Mwd-1g-NHD" firstAttribute="leading" secondItem="aZi-Up-Coz" secondAttribute="leading" id="4fD-iT-vT7"/>
+                <constraint firstItem="cpc-Nn-vHc" firstAttribute="leading" secondItem="u6t-XJ-dNl" secondAttribute="leading" constant="8" id="IyY-pd-Rh9"/>
+                <constraint firstItem="2c4-n1-Bku" firstAttribute="leading" secondItem="aZi-Up-Coz" secondAttribute="leading" id="NLN-vG-9fG"/>
+                <constraint firstAttribute="bottom" secondItem="k1f-Ym-7Uf" secondAttribute="bottom" constant="5" id="ObF-Rf-dnP"/>
+                <constraint firstItem="2c4-n1-Bku" firstAttribute="top" secondItem="aZi-Up-Coz" secondAttribute="bottom" constant="5" id="R5m-4y-1GA"/>
+                <constraint firstItem="cpc-Nn-vHc" firstAttribute="top" secondItem="u6t-XJ-dNl" secondAttribute="top" constant="10" id="SLR-ED-7MT"/>
+                <constraint firstAttribute="trailing" secondItem="2c4-n1-Bku" secondAttribute="trailing" constant="8" id="TOS-4Z-BWu"/>
+                <constraint firstItem="Mwd-1g-NHD" firstAttribute="top" secondItem="2c4-n1-Bku" secondAttribute="bottom" constant="5" id="XUE-c5-WYU"/>
+                <constraint firstItem="aZi-Up-Coz" firstAttribute="top" secondItem="cpc-Nn-vHc" secondAttribute="bottom" constant="5" id="ZIB-pR-lAr"/>
+                <constraint firstAttribute="trailing" secondItem="Mwd-1g-NHD" secondAttribute="trailing" constant="8" id="gtf-fA-ngZ"/>
+                <constraint firstAttribute="trailing" secondItem="cpc-Nn-vHc" secondAttribute="trailing" constant="8" id="hOh-wN-0GT"/>
+                <constraint firstAttribute="trailing" secondItem="aZi-Up-Coz" secondAttribute="trailing" constant="8" id="lzF-jo-K22"/>
+                <constraint firstItem="aZi-Up-Coz" firstAttribute="leading" secondItem="cpc-Nn-vHc" secondAttribute="leading" id="rvE-OQ-Qtk"/>
+                <constraint firstItem="k1f-Ym-7Uf" firstAttribute="top" secondItem="Mwd-1g-NHD" secondAttribute="bottom" constant="5" id="txV-Ik-7Vg"/>
+                <constraint firstItem="k1f-Ym-7Uf" firstAttribute="leading" secondItem="u6t-XJ-dNl" secondAttribute="leading" constant="8" id="xTf-u1-edE"/>
+            </constraints>
+            <size key="customSize" width="292" height="146"/>
+            <connections>
+                <outlet property="cardDescription" destination="cpc-Nn-vHc" id="tAB-vf-U1c"/>
+                <outlet property="engTranslation" destination="Mwd-1g-NHD" id="EQB-fv-7Pu"/>
+                <outlet property="nativeWord" destination="aZi-Up-Coz" id="uBO-NE-Zpc"/>
+                <outlet property="script" destination="2c4-n1-Bku" id="cZh-GT-80U"/>
+            </connections>
+            <point key="canvasLocation" x="185" y="65"/>
+        </collectionViewCell>
+    </objects>
+</document>
